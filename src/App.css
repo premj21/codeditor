@@ -1,0 +1,262 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.prem {
+    display: flex;
+    padding: auto;
+}
+
+.prem h1 {
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-top: 0.1rem;
+    color: #4dd5d5;
+}
+
+.prem h1:hover {
+    color: #01ffff;
+}
+
+.formWrapper {
+background: #131f1ed1;
+border-radius: 25px;
+height: 355px;
+margin-top: -9rem;
+max-width: 80%;
+padding: 22px;
+width: 525px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #4aee88;
+}
+
+.prem {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: -19px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.homePageLogo {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.homePageLogo:hover {
+    height: 95px;
+    margin-bottom: 13px;
+}
+
+.inputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: rgba(10, 237, 237, 0.72);
+    color: white;
+    border: 1px solid #00ffff;
+}
+
+.btn-copyBtn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: rgba(43, 88, 88, 0.33);
+    color: #ffffffab;
+}
+
+.joinBtn,
+.leaveBtn {
+    background: rgba(21, 186, 186, 0.72);
+    width: 100px;
+    margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+    color: #fff;
+    box-shadow: 1px 1px 9px 3px #00d1d1;
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createNewBtn {
+    color: rgba(21, 186, 186, 0.72);
+    text-decoration: none;
+    border-bottom: 1px solid #00d1d1;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+    color: #00d1d1;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.aside {
+    background: black;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.userName {
+    margin-top: 10px;
+}
+
+.logo {
+    border-bottom: 2px solid #424242;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+.logo:hover {
+    padding-top: 1rem;
+}
+
+.logo h2 {
+    font-size: 1.7rem;
+    margin-left: 0rem;
+    margin-top: 0.7rem;
+    color: #029595e8;
+}
+
+.logo h2:hover {
+    color: #00d1d1;
+}
+
+.logoImage {
+    height: 65px;
+}
+
+.leaveBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+    background-color: 19191A;
+      
+}
+.CodeMirror {
+    background-color: #19191a !important;
+    border: none;
+    color: #f8f8f2 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style
+  */
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 08vh;
+    margin-left: 30px;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+    color: #f4efef;
+}
+
+.typing-demo {
+    width: 32ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 1px
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
